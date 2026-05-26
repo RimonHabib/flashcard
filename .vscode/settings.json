@@ -6,16 +6,12 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorWidth": 2,
   "editor.cursorStyle": "underline",
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "One Dark Pro Night Flat",
 
   "editor.fontLigatures": false,
   "editor.fontSize": 13,
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
-  "[php]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
-  },
   "[javascript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -32,15 +28,17 @@
 
   "github.copilot.enable": {
     "*": false,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": true,
-    "json": true,
-    "go": false,
-    "typescript": false
+    // "yaml": false,
+    // "plaintext": false,
+    // "markdown": true,
+    // "json": true,
+    // "go": false,
+    // "typescript": false
   },
   "git.autofetch": true,
   "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "typescript.tsdk": "node_modules/typescript/lib",
   "claudeCode.preferredLocation": "panel",
-  "github.copilot.nextEditSuggestions.eagerness": "low"
+  "github.copilot.nextEditSuggestions.eagerness": "low",
+  "js/ts.tsdk.path": "node_modules/typescript/lib"
 }

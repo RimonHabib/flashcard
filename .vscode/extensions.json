@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "zhuangtongfa.Material-theme",
+    "esbenp.prettier-vscode",
+    "kokororin.vscode-phpfmt",
+    "ms-python.python",
+    "GitHub.copilot"
+  ]
+}

@@ -37,8 +37,8 @@
   },
   "git.autofetch": true,
   "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": "./node_modules/typescript/lib",
   "claudeCode.preferredLocation": "panel",
   "github.copilot.nextEditSuggestions.eagerness": "low",
-  "js/ts.tsdk.path": "node_modules/typescript/lib"
+  "js/ts.tsdk.path": "./node_modules/typescript/lib"
 }

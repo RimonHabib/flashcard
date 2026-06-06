@@ -11,7 +11,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "useUnknownInCatchVariables": false,
-    "target": "ES2021",
+    "target": "ES2022",
     "sourceMap": true,
     "allowJs": false,
     "rootDir": ".",
@@ -38,7 +38,9 @@
       // "@nestjs/platform-socket.io/*": ["./packages/platform-socket.io/*"],
     }
   },
-
+  "ts-node": {
+    "transpileOnly": true
+  },
   "include": ["src/**/*", "packages/**/*", "integration/**/*"],
   "exclude": ["node_modules"]
 }

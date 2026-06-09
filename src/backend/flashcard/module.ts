@@ -1,11 +1,12 @@
 import { CardController } from "./controllers/card.controller";
 import { CardRoute } from "./routes/card.route";
+import { CardService } from "./services/card.service";
 
 export class CardModule {
   private static instance: CardModule;
   private route: CardRoute;
   private controller: CardController;
-  private providers: {};
+  private cardService: CardService;
 
   private constructor() {
     this.resolve();
@@ -19,7 +20,8 @@ export class CardModule {
   }
 
   private resolve() {
-    this.controller = new CardController();
+    this.cardService = new CardService();
+    this.controller = new CardController(this.cardService);
     this.route = new CardRoute(this.controller);
   }
 
